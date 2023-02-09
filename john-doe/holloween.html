@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Développeur fullstack en recherche d'emploi - John Doe</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/base.css" />
+    <link rel="stylesheet" href="./src/css/card.css" />
+    <link rel="stylesheet" href="./src/css/thumbnail.css" />
+    <link rel="stylesheet" href="./src/css/path.css" />
+    <link rel="stylesheet" href="./src/css/skill-box.css" />
+    <link rel="stylesheet" href="./src/css/list.css" />
+    <link type="text/css" rel="stylesheet" href="./src/css/materialize.min.css" media="screen,projection" />
+    <link rel="favicon" href="./src/img/favicon.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+    <body>
+        <div class="page">
+            <div class="card" id="person">
+                <section>
+                    <h3>Halloween nightmare 2 : prepared to be spooked</h3>
+                    <br><br>
+                    <h6 class="col s6 titre left-align ">Objectif: </h6>
+                    <div class="col s6 left-align">Prendre en main le logiciel Unreal Engine et sa notion de blueprint avec un jeu de platform/action avec 3 personnages différents</div>
+                    <br>
+                    <h6 class="col s2 titre left-align">Personnes dans le groupe : </h6>
+                    <div class="col s10 left-align">3 personnes.</div>
+                    <br>
+                    <h6 class="col s2 titre left-align">Temps pour réalisé le projet : </h6>
+                    <div class="col s10 left-align">3 semaines.</div>
+                </section>
+                <section>
+                  <hr />
+                  <section>
+                    <h3>Download</h3>
+                    <a target="_blank" class="button yellow accent-4 black-text" href="./projet/Halloween-nightmare-II-project.zip" download>Halloween nightmare 2</a>
+                  </section>
+                <hr />
+                  <h3>Images</h3>
+                  <div class="carousel carousel-slider center">
+                    <a class="carousel-item" href="#one!"><img src="src/img/halloweenmenu.PNG"></a>
+                    <a class="carousel-item" href="#two!"><img src="src/img/halloweengobelin.PNG"></a>
+                    <a class="carousel-item" href="#three!"><img src="src/img/halloweenlich.PNG"></a>
+                    <a class="carousel-item" href="#four!"><img src="src/img/halloweenmoose.PNG"></a>
+                    <a class="carousel-item" href="#four!"><img src="src/img/holloweenboss.PNG"></a>
+                  </div>
+                </section>
+
+                  <br><br>
+            </div>
+        </div>
+
+
+        <script type="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></script>
+        <script type="text/javascript" src="./src/js/materialize.js"></script>
+        <script type="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          $('.carousel').carousel({
+            dist : -50,
+            fullWidth : true
+          });
+          setInterval(function(){
+            $('carousel').carousel('next');
+          }, 2000);
+        });
+
+      </script>
+    </body>
+</html>
